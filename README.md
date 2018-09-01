@@ -2,4 +2,4 @@
 
 ## May the task be with you
 
-### Entenda o projeto acessando o [Wiki](https://github.com/JEsidio/Dark-Side-Task-Manager/wiki) com as informações.
+Entenda o projeto acessando o [Wiki](https://github.com/JEsidio/Dark-Side-Task-Manager/wiki) com as informações.
