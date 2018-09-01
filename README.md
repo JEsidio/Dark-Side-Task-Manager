@@ -1,4 +1,4 @@
-# Welcome to the Dark-Side-Task-Manager!
+# Welcome to the Dark Side Task Manager!
 
 ## May the task be with you
 
