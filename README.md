@@ -1,14 +1,5 @@
-# Welcome to the Dark-Side-Task-Manager wiki!
+# Welcome to the Dark-Side-Task-Manager!
 
-* Sobre o DSTM
+## May the task be with you
 
-* Diagrama de Caso de Uso
-
-* Detalhamento dos casos de Uso
-  * Create account
-  * Create task
-  * Edit task
-  * Finish task
-  * Delete task
-
-* Para visualizar o protótipo de telas do aplicativo clique [**aqui**](https://marvelapp.com/33gic76)
+### Entenda o projeto acessando o [Wiki](https://github.com/JEsidio/Dark-Side-Task-Manager/wiki) com as informações.
