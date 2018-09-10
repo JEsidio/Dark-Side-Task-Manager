@@ -1,0 +1,18 @@
+#backgroundLogin {
+    -fx-background-color: #aeaeae;
+}
+
+#imgLogoLogin {
+    -fx-border-color: red;
+    -fx-border-style: solid;
+    -fx-border-width: 5px;
+}
+
+.labelsLogin {
+    -fx-font: normal bold 50px 'serif'
+}
+
+.buttonsLogin {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="anchorPaneLogin" prefHeight="653.0" prefWidth="963.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="telas.Login">
+   <children>
+      <Pane fx:id="backgroundLogin" prefHeight="653.0" prefWidth="963.0" stylesheets="@loginStyle.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView id="imgLogoLogin" fx:id="imgLogoLogin" fitHeight="221.0" fitWidth="346.0" layoutX="305.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="labelEmailLogin" layoutX="302.0" layoutY="300.0" prefHeight="17.0" prefWidth="86.0" styleClass="labelsLogin" text="E-mail:" />
+            <Label fx:id="labelSenhaLogin" layoutX="302.0" layoutY="367.0" text="Senha: " />
+            <TextField fx:id="inputEmailLogin" layoutX="377.0" layoutY="296.0" prefHeight="37.0" prefWidth="275.0" promptText="E-mail" />
+            <PasswordField fx:id="inputSenhaLogin" layoutX="377.0" layoutY="363.0" prefHeight="37.0" prefWidth="275.0" promptText="Senha:" />
+            <Button fx:id="buttonCriarContaLogin" layoutX="357.0" layoutY="504.0" mnemonicParsing="false" styleClass="buttonsLogin" text="Criar conta" />
+            <Button id="buttonsLogin" fx:id="buttonLoginLogin" layoutX="515.0" layoutY="504.0" mnemonicParsing="false" styleClass="buttonsLogin" text="Login" />
+         </children></Pane>
+   </children>
+</AnchorPane>
