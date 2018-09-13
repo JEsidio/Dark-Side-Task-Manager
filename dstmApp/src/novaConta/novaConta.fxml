@@ -7,10 +7,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="653.0" prefWidth="953.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:id="anchorPaneNovaConta" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="653.0" prefWidth="953.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Pane id="background" fx:id="backgroundNovaConta" layoutX="241.0" layoutY="74.0" prefHeight="653.0" prefWidth="953.0" stylesheets="@Style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <Pane id="background" fx:id="backgroundNovaConta" layoutX="241.0" layoutY="74.0" prefHeight="653.0" prefWidth="953.0" stylesheets="@../assets/Style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <Pane id="imgBackground" fx:id="imgLogoNovaConta" layoutX="272.0" layoutY="33.0" prefHeight="267.0" prefWidth="420.0" />
             <Label fx:id="labelNomeNovaConta" layoutX="272.0" layoutY="352.0" styleClass="labels" text="Nome: " />

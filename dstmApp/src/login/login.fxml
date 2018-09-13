@@ -7,14 +7,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 
-<AnchorPane id="background" fx:id="anchorPaneLogin" prefHeight="653.0" prefWidth="963.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="telas.Login">
+<AnchorPane fx:id="anchorPaneLogin" prefHeight="653.0" prefWidth="963.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login">
    <children>
-      <Pane id="background" fx:id="backgroundLogin" prefHeight="653.0" prefWidth="963.0" stylesheets="@Style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <Pane id="background" fx:id="backgroundLogin" layoutX="241.0" layoutY="74.0" prefHeight="653.0" prefWidth="963.0" stylesheets="@../assets/Style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <Label fx:id="labelEmailLogin" layoutX="272.0" layoutY="372.0" prefHeight="17.0" prefWidth="86.0" styleClass="labels" text="E-mail:" />
             <Label fx:id="labelSenhaLogin" layoutX="272.0" layoutY="438.0" styleClass="labels" text="Senha: " />
-            <TextField fx:id="inputEmailLogin" layoutX="355.0" layoutY="367.0" prefHeight="37.0" prefWidth="338.0" promptText="E-mail" styleClass="inputText" />
-            <PasswordField fx:id="inputSenhaLogin" layoutX="355.0" layoutY="433.0" prefHeight="37.0" prefWidth="338.0" promptText="Senha:" styleClass="inputText" />
+            <TextField fx:id="inputEmailLogin" layoutX="355.0" layoutY="371.0" prefHeight="31.0" prefWidth="338.0" promptText="E-mail" styleClass="inputText" />
+            <PasswordField fx:id="inputSenhaLogin" layoutX="355.0" layoutY="437.0" prefHeight="28.0" prefWidth="338.0" promptText="Senha:" styleClass="inputText" />
             <Button fx:id="buttonCriarContaLogin" layoutX="272.0" layoutY="540.0" mnemonicParsing="false" styleClass="buttons" text="Criar conta" />
             <Button id="buttonsLogin" fx:id="buttonLoginLogin" layoutX="613.0" layoutY="540.0" mnemonicParsing="false" styleClass="buttons" text="Login" />
             <Pane id="imgBackground" fx:id="imgLogoLogin" layoutX="272.0" layoutY="33.0" prefHeight="267.0" prefWidth="420.0" />
