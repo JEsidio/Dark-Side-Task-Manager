@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="anchorPaneLogin" prefHeight="603.0" prefWidth="963.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="splash.SplashController">
+   <children>
+      <Pane id="imgBackground" fx:id="backgroundSplash" layoutX="241.0" layoutY="74.0" prefHeight="624.0" prefWidth="963.0" stylesheets="@../assets/style/Style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>
