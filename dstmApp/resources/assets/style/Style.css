@@ -26,6 +26,15 @@
 	-fx-font-style: normal;
 	-fx-font-weight: bold;
 	-fx-text-fill: black;
+	-fx-alignment: center;
+}
+
+.labelErrorLogin {
+    -fx-font-size: 18px;
+	-fx-font-style: normal;
+	-fx-font-weight: bold;
+	-fx-text-fill: red;
+	-fx-alignment: center;
 }
 
 .inputText {
@@ -35,6 +44,7 @@
 	-fx-font-weight: bold;
 	-fx-prompt-text-fill: white;
 	-fx-prompt-password-fill: white;
+	-fx-text-fill: white;
 }
 
 .buttons {

@@ -1,4 +1,4 @@
-package br.com.leandersonandre.readings.app.uteis;
+package uteis;
 
 import java.util.Objects;
 

@@ -6,6 +6,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
@@ -14,9 +15,13 @@ import java.util.Objects;
 
 public class LoginController {
     @FXML
-    public TextField emailLogin;
+    private TextField emailLogin;
     @FXML
-    public TextField senhaLogin;
+    private TextField senhaLogin;
+    @FXML
+    private Button loginLogin;
+    @FXML
+    private Button criarContaLogin;
 
     /*public void clickDoBotao(Event event){
         String texto = campoTexto.getText();

@@ -13,9 +13,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        System.out.println("Olá");
         SplashController.start(primaryStage);
-        System.out.println("Olá");
     }
 
 

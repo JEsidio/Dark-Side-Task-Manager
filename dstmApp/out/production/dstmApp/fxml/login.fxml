@@ -18,6 +18,7 @@
             <Button fx:id="buttonCriarContaLogin" layoutX="272.0" layoutY="540.0" mnemonicParsing="false" styleClass="buttons" text="Criar conta" />
             <Button id="buttonsLogin" fx:id="buttonLoginLogin" layoutX="613.0" layoutY="540.0" mnemonicParsing="false" styleClass="buttons" text="Login" />
             <Pane id="imgBackground" fx:id="imgLogoLogin" layoutX="272.0" layoutY="33.0" prefHeight="267.0" prefWidth="420.0" />
+            <Label fx:id="labelErroLogin" layoutX="271.0" layoutY="322.0" prefHeight="28.0" prefWidth="427.0" styleClass="labelErrorLogin" textAlignment="CENTER" />
          </children></Pane>
    </children>
 </AnchorPane>

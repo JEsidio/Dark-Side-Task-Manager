@@ -37,8 +37,7 @@ public class SplashController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        System.out.println("Olá");
-        Media media = new Media(Objects.requireNonNull(getClass().getClassLoader().getResource("assets/audio/imperialmarchtrimmed.mp3")).toString());
+        Media media = new Media(Objects.requireNonNull(getClass().getClassLoader().getResource("assets/audio/saberon.mp3")).toString());
         MediaPlayer mp = new MediaPlayer(media);
         mp.play();
 
@@ -62,7 +61,7 @@ public class SplashController implements Initializable {
         public Object doInBackground(Object[] params)  {
 
             try {
-                Thread.sleep(3000);
+                Thread.sleep(1500);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
