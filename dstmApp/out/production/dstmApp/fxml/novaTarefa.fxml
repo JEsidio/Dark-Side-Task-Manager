@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TableColumn?>
-<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -24,16 +24,17 @@
                   </ImageView>
                </children>
             </Pane>
-            <TableView fx:id="tableTasksNovaTarefa" layoutX="128.0" layoutY="165.0" prefHeight="379.0" prefWidth="698.0" styleClass="table">
-              <columns>
-                <TableColumn prefWidth="60.0" styleClass="tableHeader" text="Nº" />
-                  <TableColumn prefWidth="305.0" styleClass="tableHeader" text="Tarefa" />
-                  <TableColumn minWidth="0.0" prefWidth="142.0" styleClass="tableHeader" text="Término" />
-                  <TableColumn prefWidth="189.0" styleClass="tableHeader" text="Marcador" />
-              </columns>
-            </TableView>
-            <Button fx:id="buttonCriarTarefaNovaTarefa" layoutX="501.0" layoutY="578.0" mnemonicParsing="false" styleClass="buttons" text="Criar tarefa" />
-            <Button fx:id="buttonCancelarNovaTarefa" layoutX="332.0" layoutY="578.0" mnemonicParsing="false" styleClass="buttons" text="Cancelar" />
+            <Button fx:id="buttonCriarTarefaNovaTarefa" layoutX="501.0" layoutY="578.0" mnemonicParsing="false" onAction="#botaoCriarTarefa" styleClass="buttons" text="Criar tarefa" />
+            <Button fx:id="buttonCancelarNovaTarefa" layoutX="332.0" layoutY="578.0" mnemonicParsing="false" onAction="#botaoCancelar" styleClass="buttons" text="Cancelar" />
+            <Label fx:id="labelNrNovaTarefa" layoutX="43.0" layoutY="301.0" styleClass="labels" text="Nº" />
+            <Label fx:id="labelTarefaNovaTarefa" layoutX="130.0" layoutY="301.0" styleClass="labels" text="Tarefa" />
+            <Label fx:id="labelTerminoNovaTarefa" layoutX="493.0" layoutY="301.0" styleClass="labels" text="Término" />
+            <Label fx:id="labelMarcadorNovaTarefa" layoutX="691.0" layoutY="301.0" styleClass="labels" text="Marcador" />
+            <TextField fx:id="inputTarefaNovaTarefa" layoutX="130.0" layoutY="331.0" prefHeight="31.0" prefWidth="339.0" styleClass="inputText" />
+            <DatePicker fx:id="inputTerminoNovaTarefa" layoutX="493.0" layoutY="331.0" prefHeight="31.0" prefWidth="173.0" styleClass="inputData" />
+            <TextField fx:id="inputMarcadorNovaTarefa" layoutX="691.0" layoutY="331.0" styleClass="inputText" />
+            <Label fx:id="labelErroNovaTarefa" layoutX="241.0" layoutY="209.0" prefHeight="20.0" prefWidth="472.0" styleClass="labelError" />
+            <Label fx:id="nrNovaTarefa" layoutX="36.0" layoutY="333.0" prefHeight="28.0" prefWidth="69.0" styleClass="inputText" />
          </children>
       </Pane>
    </children>

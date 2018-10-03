@@ -1,3 +1,4 @@
+import login.LoginController;
 import splash.SplashController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -16,6 +17,10 @@ public class Main extends Application {
         SplashController.start(primaryStage);
     }
 
+    /*@Override
+    public void start(Stage primaryStage) throws IOException {
+        LoginController.abrirLogin();
+    }*/
 
     public static void main(String[] args) {
         launch(args);

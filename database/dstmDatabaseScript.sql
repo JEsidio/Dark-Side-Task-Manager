@@ -5,19 +5,19 @@ SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
 
 -- -----------------------------------------------------
--- Schema dstmDatabase
+-- Schema dstmdatabase
 -- -----------------------------------------------------
 
 -- -----------------------------------------------------
--- Schema dstmDatabase
+-- Schema dstmdatabase
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `dstmDatabase` DEFAULT CHARACTER SET utf8 ;
-USE `dstmDatabase` ;
+CREATE SCHEMA IF NOT EXISTS `dstmdatabase` DEFAULT CHARACTER SET utf8 ;
+USE `dstmdatabase` ;
 
 -- -----------------------------------------------------
--- Table `dstmDatabase`.`user`
+-- Table `dstmdatabase`.`user`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `dstmDatabase`.`user` (
+CREATE TABLE IF NOT EXISTS `dstmdatabase`.`user` (
   `idUser` INT NOT NULL AUTO_INCREMENT COMMENT 'Identification of each user',
   `userName` VARCHAR(255) NOT NULL COMMENT 'User name to show on the home page of the dstm app',
   `userEmail` VARCHAR(250) NOT NULL COMMENT 'User e-mail for the login verification and possible password reset',
@@ -27,9 +27,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `dstmDatabase`.`task`
+-- Table `dstmdatabase`.`task`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `dstmDatabase`.`task` (
+CREATE TABLE IF NOT EXISTS `dstmdatabase`.`task` (
   `idTask` INT NOT NULL AUTO_INCREMENT COMMENT 'Identification of each task, showed as task number on the home page table',
   `task` VARCHAR(250) NOT NULL COMMENT 'Task itself',
   `taskEnd` DATE NOT NULL COMMENT 'Task deadline',
@@ -41,7 +41,24 @@ CREATE TABLE IF NOT EXISTS `dstmDatabase`.`task` (
   INDEX `fk_task_user1_idx` (`user_idUser` ASC),
   CONSTRAINT `fk_task_user1`
     FOREIGN KEY (`user_idUser`)
-    REFERENCES `dstmDatabase`.`user` (`idUser`)
+    REFERENCES `dstmdatabase`.`user` (`idUser`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `dstmdatabase`.`logado`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `dstmdatabase`.`logado` (
+  `idLogado` INT NOT NULL AUTO_INCREMENT COMMENT 'Id of the session',
+  `idUsuarioLogado` VARCHAR(45) NOT NULL COMMENT 'Id of the user that is logging in\n',
+  `user_idUser` INT NOT NULL,
+  PRIMARY KEY (`idLogado`, `user_idUser`),
+  INDEX `fk_logado_user1_idx` (`user_idUser` ASC),
+  CONSTRAINT `fk_logado_user1`
+    FOREIGN KEY (`user_idUser`)
+    REFERENCES `dstmdatabase`.`user` (`idUser`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;

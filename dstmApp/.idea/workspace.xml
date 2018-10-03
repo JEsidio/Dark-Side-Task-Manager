@@ -2,28 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb06b74b-8474-411b-8e29-1545607afb04" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/conexao/dao/ConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conexao/dao/TarefaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conexao/dao/UsuarioDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conexao/tabelas/Tarefa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conexao/tabelas/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uteis/Telas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conexao/dao/LogadoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/dstmDatabaseModel.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/../database/dstmDatabaseModel.mwb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/dstmDatabaseScript.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../database/dstmDatabaseScript.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/dstmApp/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dstmApp/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/dstmApp/assets/style/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dstmApp/assets/style/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dstmApp/br/com/leandersonandre/readings/app/uteis/Strings.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/dstmApp/fxml/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dstmApp/fxml/home.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/dstmApp/fxml/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dstmApp/fxml/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dstmApp/fxml/novaConta.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dstmApp/fxml/novaConta.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dstmApp/home/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dstmApp/home/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dstmApp/jdbc/MainJdbc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dstmApp/jdbc/dao/ConnectionDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dstmApp/login/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dstmApp/login/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dstmApp/novaConta/NovaContaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dstmApp/novaConta/NovaContaController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/dstmApp/splash/SplashController$CountDownTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dstmApp/splash/SplashController$CountDownTask.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/dstmApp/splash/SplashController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dstmApp/splash/SplashController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/assets/style/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/style/Style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/fxml/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fxml/home.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/fxml/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fxml/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fxml/novaConta.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fxml/novaConta.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fxml/novaTarefa.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fxml/novaTarefa.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/MainJdbc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/dao/ConnectionDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conexao/dao/UsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/conexao/dao/UsuarioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/novaConta/NovaContaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/novaConta/NovaContaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/novaTarefa/NovaTarefaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/novaTarefa/NovaTarefaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/splash/SplashController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/splash/SplashController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uteis/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uteis/Strings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uteis/Telas.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="320">
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,8 +58,8 @@
       <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/login/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+            <state relative-caret-position="140">
+              <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,29 +67,84 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AsyncTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/uteis/AsyncTask.java">
+      <file leaf-file-name="novaTarefa.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/fxml/novaTarefa.fxml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file leaf-file-name="NovaTarefaController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/novaTarefa/NovaTarefaController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-284">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="256">
+              <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Strings.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/uteis/Strings.java">
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/home/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            <state relative-caret-position="154">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Telas.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/uteis/Telas.java">
+      <file leaf-file-name="Usuario.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/conexao/tabelas/Usuario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TarefaDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/conexao/dao/TarefaDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <caret line="93" column="37" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tarefa.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/conexao/tabelas/Tarefa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogadoDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/conexao/dao/LogadoDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsuarioDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/conexao/dao/UsuarioDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,32 +189,35 @@
         <option value="$PROJECT_DIR$/src/jdbc/Main.java" />
         <option value="$PROJECT_DIR$/src/jdbc/MainJdbc.java" />
         <option value="$PROJECT_DIR$/src/login/Login.java" />
-        <option value="$PROJECT_DIR$/src/novaConta/NovaContaController.java" />
         <option value="$PROJECT_DIR$/src/novaTarefa/novaTarefa.fxml" />
-        <option value="$PROJECT_DIR$/src/novaTarefa/NovaTarefaController.java" />
         <option value="$PROJECT_DIR$/src/novaConta/novaConta.fxml" />
         <option value="$PROJECT_DIR$/src/login/login.fxml" />
         <option value="$PROJECT_DIR$/src/editarTarefa/editrarTarefa.fxml" />
-        <option value="$PROJECT_DIR$/resources/fxml/novaTarefa.fxml" />
         <option value="$PROJECT_DIR$/resources/fxml/editrarTarefa.fxml" />
-        <option value="$PROJECT_DIR$/resources/fxml/novaConta.fxml" />
         <option value="$PROJECT_DIR$/src/uteis/AsyncTask.java" />
         <option value="$PROJECT_DIR$/resources/fxml/splash.fxml" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/resources/fxml/home.fxml" />
-        <option value="$PROJECT_DIR$/resources/fxml/login.fxml" />
-        <option value="$PROJECT_DIR$/src/splash/SplashController.java" />
-        <option value="$PROJECT_DIR$/src/login/LoginController.java" />
         <option value="$PROJECT_DIR$/src/conexao/funcionalidades/usuario.java" />
         <option value="$PROJECT_DIR$/src/conexao/tabelas/usuario.java" />
         <option value="$PROJECT_DIR$/src/conexao/tabelas/tarefa.java" />
         <option value="$PROJECT_DIR$/src/conexao/dao/usuarioDAO.java" />
         <option value="$PROJECT_DIR$/src/conexao/tabelas/Tarefa.java" />
         <option value="$PROJECT_DIR$/src/conexao/dao/TarefaDAO.java" />
-        <option value="$PROJECT_DIR$/src/conexao/dao/UsuarioDAO.java" />
         <option value="$PROJECT_DIR$/src/conexao/dao/ConnectionFactory.java" />
         <option value="$PROJECT_DIR$/src/uteis/Strings.java" />
         <option value="$PROJECT_DIR$/src/uteis/Telas.java" />
+        <option value="$PROJECT_DIR$/resources/fxml/login.fxml" />
+        <option value="$PROJECT_DIR$/resources/fxml/novaConta.fxml" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/splash/SplashController.java" />
+        <option value="$PROJECT_DIR$/resources/fxml/home.fxml" />
+        <option value="$PROJECT_DIR$/src/conexao/dao/LogadoDAO.java" />
+        <option value="$PROJECT_DIR$/src/conexao/dao/UsuarioDAO.java" />
+        <option value="$PROJECT_DIR$/src/novaConta/NovaContaController.java" />
+        <option value="$PROJECT_DIR$/resources/fxml/novaTarefa.fxml" />
+        <option value="$PROJECT_DIR$/src/conexao/tabelas/Usuario.java" />
+        <option value="$PROJECT_DIR$/src/login/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/novaTarefa/NovaTarefaController.java" />
+        <option value="$PROJECT_DIR$/src/home/HomeController.java" />
       </list>
     </option>
   </component>
@@ -167,7 +233,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="814" />
     <option name="height" value="867" />
@@ -200,25 +266,32 @@
               <item name="dstmApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dstmApp" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dstmApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dstmApp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="audio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dstmApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dstmApp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="fxml" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dstmApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dstmApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dstmApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dstmApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="conexao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dstmApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dstmApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="conexao" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dstmApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dstmApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="conexao" type="462c0819:PsiDirectoryNode" />
+              <item name="tabelas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dstmApp" type="b2602c69:ProjectViewProjectNode" />
@@ -273,7 +346,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Readings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../teste" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -344,14 +417,18 @@
       <workItem from="1536969259426" duration="2712000" />
       <workItem from="1536972033562" duration="1910000" />
       <workItem from="1537142522063" duration="7324000" />
+      <workItem from="1537465991219" duration="10227000" />
+      <workItem from="1537482997435" duration="7192000" />
+      <workItem from="1537573418982" duration="2155000" />
+      <workItem from="1538091470719" duration="5349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30075000" />
+    <option name="totallyTimeSpent" value="54998000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -363,25 +440,25 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32985657" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32985657" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.178125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1375" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32985657" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32985657" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,6 +468,38 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uteis/AsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uteis/Strings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uteis/Telas.java" />
     <entry file="file://$PROJECT_DIR$/src/editarTarefa/EditarTarefaController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -418,20 +527,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/conexao/MainJdbc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/conexao/MainJdbc.java" />
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -495,20 +595,6 @@
     <entry file="file://$PROJECT_DIR$/src/jdbc/dao/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/jdbc/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/jdbc/dao/MainJdbc.java" />
-    <entry file="file://$PROJECT_DIR$/src/novaConta/NovaContaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/novaTarefa/NovaTarefaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/home/Home.java" />
     <entry file="file://$PROJECT_DIR$/src/editarTarefa/EditarTarefaController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -517,52 +603,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/fxml/home.fxml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/home/HomeController.java">
+    <entry file="file://$PROJECT_DIR$/src/conexao/MainJdbc.java" />
+    <entry file="file://$PROJECT_DIR$/src/conexao/dao/ConnectionDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/uteis/Strings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="220" selection-start-line="220" selection-end-line="220" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uteis/AsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/javafx.graphics/javafx/scene/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="1254" column="35" selection-start-line="1254" selection-start-column="35" selection-end-line="1254" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uteis/Telas.java" />
     <entry file="file://$PROJECT_DIR$/src/splash/SplashController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1014">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/fxml/login.fxml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/conexao/MainJdbc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/conexao/dao/ConnectionDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="380">
+          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -573,10 +648,61 @@
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/conexao/dao/UsuarioDAO.java">
+    <entry file="file://$PROJECT_DIR$/resources/fxml/login.fxml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/novaConta/NovaContaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        <state relative-caret-position="96">
+          <caret line="50" selection-start-line="50" selection-end-line="69" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/fxml/novaConta.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="54" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/conexao/dao/ConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/fxml/novaTarefa.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/conexao/dao/TarefaDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="93" column="37" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/conexao/tabelas/Tarefa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/conexao/dao/LogadoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -585,113 +711,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/conexao/tabelas/Usuario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="40">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/conexao/dao/TarefaDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3496#3504#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/resources/fxml/home.fxml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/conexao/dao/ConnectionFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/novaTarefa/NovaTarefaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        <state relative-caret-position="256">
+          <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/conexao/tabelas/Tarefa.java">
+    <entry file="file://$PROJECT_DIR$/src/home/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+        <state relative-caret-position="154">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#1067#1068#0" expanded="true" />
-            <element signature="e#1110#1111#0" expanded="true" />
-            <element signature="e#1347#1348#0" expanded="true" />
-            <element signature="e#1411#1412#0" expanded="true" />
-            <element signature="e#1286#1287#0" expanded="true" />
-            <element signature="e#1324#1325#0" expanded="true" />
-            <element signature="e#1383#1384#0" expanded="true" />
-            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/conexao/dao/UsuarioDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/login/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="140">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/uteis/AsyncTask.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-284">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/uteis/Strings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/uteis/Telas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="320">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
