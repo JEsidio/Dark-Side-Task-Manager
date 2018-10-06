@@ -1,11 +1,14 @@
 package conexao.tabelas;
 
-import java.sql.Date;
+
+import conexao.dao.LogadoDAO;
+
+import java.time.LocalDate;
 
 public class Tarefa {
     private int idTarefa;
     private String tarefaTarefa;
-    private Date fimTarefa;
+    private LocalDate fimTarefa;
     private String marcadorTarefa;
     private int statusTerminadaTarefa;
     private int statusDeletadaTarefa;
@@ -25,10 +28,10 @@ public class Tarefa {
         this.tarefaTarefa = tarefaTarefa;
     }
 
-    public Date getFimTarefa() {
+    public LocalDate getFimTarefa() {
         return fimTarefa;
     }
-    public void setFimTarefa(Date fimTarefa) {
+    public void setFimTarefa(LocalDate fimTarefa) {
         this.fimTarefa = fimTarefa;
     }
 
@@ -57,6 +60,42 @@ public class Tarefa {
         return idUsuarioTarefa;
     }
     public void setIdUsuarioTarefa(int idUsuarioTarefa) {
-        this.idUsuarioTarefa = idUsuarioTarefa;
+        this.idUsuarioTarefa = LogadoDAO.getInstance().obterUsuarioAtual().getIdUsuario();
+    }
+
+
+
+    class modelTable{
+        String tarefa, termino, data;
+
+        public modelTable(String tarefa, String termino, String data) {
+            this.tarefa = tarefa;
+            this.termino = termino;
+            this.data = data;
+        }
+
+        public String getTarefa() {
+            return tarefa;
+        }
+
+        public void setTarefa(String tarefa) {
+            this.tarefa = tarefa;
+        }
+
+        public String getTermino() {
+            return termino;
+        }
+
+        public void setTermino(String termino) {
+            this.termino = termino;
+        }
+
+        public String getData() {
+            return data;
+        }
+
+        public void setData(String data) {
+            this.data = data;
+        }
     }
 }

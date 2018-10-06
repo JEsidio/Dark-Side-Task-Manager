@@ -33,6 +33,8 @@ public class NovaContaController {
     @FXML
     private Label labelErroNovaConta;
 
+    private Scene previousScene;
+
     private UsuarioDAO usuarioDAO;
 
     public NovaContaController() {
@@ -61,7 +63,7 @@ public class NovaContaController {
 
             if (this.usuarioDAO.getByEmailUsuario(inputEmailNovaConta.getText()) == null) {
                 this.usuarioDAO.inserirUsuario(usuario);
-                HomeController.abrirHome();
+                LoginController.abrirLogin();
                 Stage primaryStage = (Stage)((Node)mouseEvent.getSource()).getScene().getWindow();
                 primaryStage.hide();
             } else {
@@ -80,5 +82,9 @@ public class NovaContaController {
         }catch (Exception e){
             e.printStackTrace();
         }
+    }
+
+    public void setPreviousScene(Scene previousScene) {
+        this.previousScene = previousScene;
     }
 }

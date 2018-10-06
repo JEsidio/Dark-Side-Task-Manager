@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 
-<AnchorPane fx:id="anchorPaneHome" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="653.0" prefWidth="953.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.HomeController">
+<AnchorPane fx:id="anchorPaneHome" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="653.0" prefWidth="953.0" stylesheets="@../assets/style/Style.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.HomeController">
    <children>
       <Pane id="background" fx:id="backgroundHome" layoutX="277.0" layoutY="77.0" prefHeight="653.0" prefWidth="953.0" stylesheets="@../assets/style/Style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -24,17 +26,38 @@
                   </ImageView>
                </children>
             </Pane>
-            <TableView fx:id="tableTasksHome" layoutX="37.0" layoutY="166.0" prefHeight="379.0" prefWidth="879.0" styleClass="table">
+            <TableView fx:id="tabela" layoutX="37.0" layoutY="274.0" prefHeight="271.0" prefWidth="879.0" style="-fx-selection-bar: red;" styleClass="table">
               <columns>
-                <TableColumn prefWidth="90.0" styleClass="tableHeader" text="Ações" />
-                <TableColumn prefWidth="60.0" styleClass="tableHeader" text="Nº" />
-                  <TableColumn prefWidth="305.0" styleClass="tableHeader" text="Tarefa" />
-                  <TableColumn minWidth="0.0" prefWidth="142.0" styleClass="tableHeader" text="Término" />
-                  <TableColumn prefWidth="189.0" styleClass="tableHeader" text="Marcador" />
-                  <TableColumn minWidth="0.0" prefWidth="91.0" styleClass="tableHeader" text="Concluída" />
+
+                  <TableColumn prefWidth="414.0" styleClass="tableHeader" text="Tarefa">
+                 <cellValueFactory>
+                    <PropertyValueFactory property="tarefaTarefa" />
+                 </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn minWidth="0.0" prefWidth="209.0" styleClass="tableHeader" text="Término">
+                 <cellValueFactory>
+                    <PropertyValueFactory property="fimTarefa" />
+                 </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn prefWidth="237.0" styleClass="tableHeader" text="Marcador">
+                 <cellValueFactory>
+                    <PropertyValueFactory property="marcadorTarefa" />
+                 </cellValueFactory>
+                  </TableColumn>
               </columns>
             </TableView>
-            <Button fx:id="buttonNovaTarefaHome" layoutX="412.0" layoutY="578.0" mnemonicParsing="false" styleClass="buttons" text="Nova tarefa" />
+            <Label fx:id="labelTarefaHome" layoutX="75.0" layoutY="144.0" styleClass="labelsTarefa" text="Tarefa" />
+            <TextField fx:id="inputTarefaHome" layoutX="75.0" layoutY="170.0" prefHeight="31.0" prefWidth="339.0" styleClass="inputTextTarefa" />
+            <Label fx:id="labelTerminoHome" layoutX="432.0" layoutY="144.0" styleClass="labelsTarefa" text="Término" />
+            <DatePicker fx:id="inputTerminoHome" layoutX="432.0" layoutY="169.0" prefHeight="31.0" prefWidth="173.0" styleClass="inputDataTarefa" />
+            <Label fx:id="labelMarcadorHome" layoutX="624.0" layoutY="144.0" styleClass="labelsTarefa" text="Marcador" />
+            <TextField fx:id="inputMarcadorHome" layoutX="624.0" layoutY="169.0" prefHeight="31.0" prefWidth="186.0" styleClass="inputTextTarefa" />
+            <ImageView fx:id="imgAddHome" fitHeight="31.0" fitWidth="32.0" layoutX="838.0" layoutY="158.0" onMouseClicked="#addHome" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/images/add.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="labelErroHome" layoutX="33.0" layoutY="227.0" prefHeight="20.0" prefWidth="879.0" styleClass="labelError" />
          </children>
       </Pane>
    </children>

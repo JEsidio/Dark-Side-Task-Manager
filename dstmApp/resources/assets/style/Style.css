@@ -29,6 +29,15 @@
 	-fx-alignment: center;
 }
 
+
+.labelsTarefa {
+    -fx-font-size: 20px;
+	-fx-font-style: normal;
+	-fx-font-weight: bold;
+	-fx-text-fill: black;
+	-fx-alignment: center;
+}
+
 .labelError {
     -fx-font-size: 18px;
 	-fx-font-style: normal;
@@ -47,9 +56,29 @@
 	-fx-text-fill: white;
 }
 
+.inputTextTarefa {
+	-fx-background-color: black;
+	-fx-font-size: 14px;
+	-fx-font-style: normal;
+	-fx-font-weight: bold;
+	-fx-prompt-text-fill: white;
+	-fx-prompt-password-fill: white;
+	-fx-text-fill: white;
+}
+
 .inputData {
 	-fx-background-color: black;
 	-fx-font-size: 16px;
+	-fx-font-style: normal;
+	-fx-font-weight: bold;
+	-fx-prompt-text-fill: white;
+	-fx-prompt-password-fill: white;
+	-fx-control-inner-background: black ;
+}
+
+.inputDataTarefa {
+	-fx-background-color: black;
+	-fx-font-size: 14px;
 	-fx-font-style: normal;
 	-fx-font-weight: bold;
 	-fx-prompt-text-fill: white;
@@ -75,6 +104,22 @@
 	-fx-border-width: 1px;
     -fx-border-color: black;
 }
+
+/*.table-view .table-cell{
+    -fx-text-fill: red;
+}*/
+
+.table-row-cell:selected {
+    -fx-background-color: red;
+}
+
+.table-view:focused{
+    -fx-background-color: black;
+}
+
+.table-row-cell:selected {-fx-background-color: red;}
+
+.root { -fx-selection-bar-text: firebrick; }
 
 
 

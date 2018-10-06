@@ -9,7 +9,7 @@ public class ConnectionFactory {
     private static final String passwordDatabase = "R@@tPassword0402";
 
 
-    public Connection getConnection() {
+    static Connection getConnection() {
         try {
             return DriverManager
                     .getConnection(stringConexao, userDatabase, passwordDatabase);

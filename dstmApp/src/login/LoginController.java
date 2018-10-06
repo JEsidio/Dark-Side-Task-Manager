@@ -7,19 +7,23 @@ import home.HomeController;
 import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 import novaConta.NovaContaController;
 
 import java.io.IOException;
+import java.net.URL;
 import java.util.Objects;
+import java.util.ResourceBundle;
 
-public class LoginController {
+public class LoginController implements Initializable {
     @FXML
     private TextField inputEmailLogin;
     @FXML
@@ -31,38 +35,10 @@ public class LoginController {
     @FXML
     private Label labelErroLogin;
 
-    /*private UsuarioDAO usuarioDAO;*/
 
-    UsuarioDAO usuarioDAO = new UsuarioDAO();
 
-    Usuario usuario = new Usuario();
 
-    public LoginController() {
-        /*this.usuarioDAO = new UsuarioDAO();*/
-    }
-
-    public void botaoCadastrar(Event mouseEvent) throws IOException {
-        NovaContaController.abrirNovaConta();
-        Stage primaryStage = (Stage)((Node)mouseEvent.getSource()).getScene().getWindow();
-        primaryStage.hide();
-    }
-
-    public void botaoLogin(Event mouseEvent) throws Exception {
-        if (inputEmailLogin.getText().isEmpty()) {
-            labelErroLogin.setText("Informe o e-mail!");
-        } else if (inputSenhaLogin.getText().isEmpty()) {
-            labelErroLogin.setText("Informe a senha!");
-        } else {
-            if (/*this.*/usuarioDAO.verificarUsuario(inputEmailLogin.getText(), inputSenhaLogin.getText())) {
-                LogadoDAO.getInstance().setUsuarioAtual(usuario);
-                HomeController.abrirHome();
-                Stage primaryStage = (Stage)((Node)mouseEvent.getSource()).getScene().getWindow();
-                primaryStage.hide();
-            } else {
-                labelErroLogin.setText("Usuário ou Senha incorretos. Verifique!");
-            }
-        }
-    }
+    private LoginComponent component;
 
     public static void abrirLogin(){
         try {
@@ -72,6 +48,37 @@ public class LoginController {
             stage.setScene(new Scene(root));
             stage.show();
         }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        component = new LoginComponent();
+    }
+
+    public void botaoLogin(Event mouseEvent) throws Exception {
+        try {
+            component.realizarLogin(inputEmailLogin.getText(), inputSenhaLogin.getText());
+            HomeController.abrirHome();
+            Stage primaryStage = (Stage)((Node)mouseEvent.getSource()).getScene().getWindow();
+            primaryStage.hide();
+        }catch (Exception e){
+            labelErroLogin.setText(e.getMessage());
+        }
+    }
+
+
+    public void botaoCadastrar(Event mouseEvent) {
+        try {
+            FXMLLoader loader = new FXMLLoader(Objects.requireNonNull(getClass().getClassLoader().getResource("fxml/novaConta.fxml")));
+            Parent root = loader.load();
+            NovaContaController controller = loader.getController();
+            Stage primaryStage = (Stage)((Node)mouseEvent.getSource()).getScene().getWindow();
+            controller.setPreviousScene(primaryStage.getScene());
+            primaryStage.setScene(new Scene(root));
+
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
